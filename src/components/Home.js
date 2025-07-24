@@ -1,11 +1,16 @@
+// src/components/Home.js
+
 import React from "react";
+import { username, city } from "../data/user";
 
 function Home() {
   return (
     <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+      <h2>Welcome to {username}’s portfolio!</h2>
+      <p>Based in {city}</p>
     </div>
   );
 }
+
+export default Home;
+
